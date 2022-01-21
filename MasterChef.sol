@@ -2000,7 +2000,7 @@ pragma solidity 0.8.0;
 contract vBRBToken is ERC20, ERC20Burnable, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
-    constructor() ERC20("weBRIDE", "vBRB") {
+    constructor() ERC20("weBRIBE", "vBRB") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }
