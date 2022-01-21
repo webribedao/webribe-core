@@ -1,2 +1,5 @@
 # webride-core
-weBRIDE Smart Contracts
+Smart Contracts for weBRIDE DAO
+
+https://webride.me
+
